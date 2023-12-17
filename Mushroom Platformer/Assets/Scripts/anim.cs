@@ -8,6 +8,7 @@ public class anim : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //animations for walking and walking while turning left/right
      animation.SetFloat("Vertical", Input.GetAxis("Vertical"));
      animation.SetFloat("horizontal", Input.GetAxis("Horizontal"));   
     }

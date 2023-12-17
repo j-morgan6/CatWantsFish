@@ -6,8 +6,8 @@ using UnityEngine;
 
 public class playerMovement : MonoBehaviour
 {
-    private float moveSpeed = 20f; // Adjust the speed as needed
-    private float rotationSpeed = 250f; // Adjust the rotation speed as needed
+    private float moveSpeed = 20f;
+    private float rotationSpeed = 150f;
 
     private CharacterController characterController;
 
@@ -23,24 +23,24 @@ public class playerMovement : MonoBehaviour
 
     void HandleMovementInput()
     {
-        // Get input from the vertical and horizontal axes
+        // get input from vert and hor axis
         float verticalInput = Input.GetAxis("Vertical");
         float horizontalInput = Input.GetAxis("Horizontal");
 
-        // Calculate the movement direction based on the player's forward vector
+        // calc movement based on forward vector
         Vector3 moveDirection = transform.forward * verticalInput;
 
-        // Calculate the rotation based on the horizontal input
+        // calc rotation based on rotation input
         Vector3 rotation = new Vector3(0, horizontalInput * rotationSpeed * Time.deltaTime, 0);
         transform.Rotate(rotation);
 
-        // Normalize the direction to ensure consistent movement speed in all directions
+        // normalize the direction
         moveDirection.Normalize();
 
-        // Manually calculate velocity
+        // calc velocity
         Vector3 velocity = moveDirection * moveSpeed;
 
-        // Apply movement using CharacterController
+        // use character controller to apply movement
         characterController.SimpleMove(velocity);
     }
 

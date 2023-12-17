@@ -31,29 +31,29 @@ public class jumping : MonoBehaviour
 
             if (Input.GetButtonDown("Jump"))
             {
-                // Jump when the jump button is pressed
+                // jump when jump is pressed
                 velocity.y = Mathf.Sqrt(2 * jumpHeight * gravity);
 
-                // Reset horizontal movement
+                // reset movement
                 velocity.x = 0f;
                 velocity.z = 0f;
             }
         }
         else
         {
-            // Apply gravity when in the air
+            // gravity while in the air
             velocity.y -= gravity * Time.deltaTime;
         }
 
-        // Add horizontal movement based on input
+        // add horizontal movement
         float horizontalInput = Input.GetAxis("Horizontal");
         Vector3 horizontalMovement = transform.right * horizontalInput * pm.GetMoveSpeed();
 
-        // Combine the horizontal and forward movement
+        // combine the horizontal and forward movement
         velocity.x = horizontalMovement.x;
-        velocity.z = horizontalMovement.z; // Use the horizontalMovement directly for z
+        velocity.z = horizontalMovement.z;
 
-        // Apply movement
+        // applys movement
         characterController.Move(velocity * Time.deltaTime);
     }
 }
