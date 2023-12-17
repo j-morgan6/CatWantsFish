@@ -1,376 +1,397 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1702801431547773, "dur":63, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1702801431547867, "dur":69885, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1702801431617770, "dur":136, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1702801431617991, "dur":112, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1702801431618103, "dur":190, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1702801431620470, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/Data/Managed/System.Runtime.Serialization 3.dll" }}
-,{ "pid":12345, "tid":0, "ts":1702801431626830, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/System 2-FeaturesChecked.txt_xg1l.info" }}
-,{ "pid":12345, "tid":0, "ts":1702801431632168, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.DirectorModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":0, "ts":1702801431632367, "dur":1848, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.DSPGraphModule 2-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":0, "ts":1702801431634276, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.DSPGraphModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":0, "ts":1702801431634712, "dur":81, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.GIModule-FeaturesChecked.txt" }}
-,{ "pid":12345, "tid":0, "ts":1702801431634803, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.GIModule-FeaturesChecked.txt_535t.info" }}
-,{ "pid":12345, "tid":0, "ts":1702801431635545, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.ImageConversionModule-FeaturesChecked.txt_4svn.info" }}
-,{ "pid":12345, "tid":0, "ts":1702801431638687, "dur":602, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.SubsystemsModule-FeaturesChecked.txt_jhyo.info" }}
-,{ "pid":12345, "tid":0, "ts":1702801431640246, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.TLSModule 3-FeaturesChecked.txt_lcep.info" }}
-,{ "pid":12345, "tid":0, "ts":1702801431618312, "dur":25799, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1702801431644122, "dur":1554158, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1702801433198322, "dur":91, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1702801433198551, "dur":67, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1702801433198726, "dur":3517, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1702801431618174, "dur":25962, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1702801431644142, "dur":15591, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1702801431660141, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/joser/Desktop/Mushroom Platformer/Mushroom Platformer/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":1, "ts":1702801431660223, "dur":258, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/joser/Desktop/Mushroom Platformer/Mushroom Platformer/Library/Bee/PlayerScriptAssemblies/Cinemachine.dll" }}
-,{ "pid":12345, "tid":1, "ts":1702801431660485, "dur":207, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/joser/Desktop/Mushroom Platformer/Mushroom Platformer/Library/Bee/PlayerScriptAssemblies/Polyperfect.Universal.dll" }}
-,{ "pid":12345, "tid":1, "ts":1702801431660701, "dur":305, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/joser/Desktop/Mushroom Platformer/Mushroom Platformer/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1702801431661010, "dur":141, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/joser/Desktop/Mushroom Platformer/Mushroom Platformer/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1702801431661160, "dur":533, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/joser/Desktop/Mushroom Platformer/Mushroom Platformer/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1702801431661704, "dur":413, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/joser/Desktop/Mushroom Platformer/Mushroom Platformer/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":1, "ts":1702801431662146, "dur":117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/joser/Desktop/Mushroom Platformer/Mushroom Platformer/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1702801431662268, "dur":308, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/joser/Desktop/Mushroom Platformer/Mushroom Platformer/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":1, "ts":1702801431665236, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/joser/Desktop/Mushroom Platformer/Mushroom Platformer/Library/Bee/artifacts/UnityLinkerInputs/MethodsToPreserve.xml" }}
-,{ "pid":12345, "tid":1, "ts":1702801431665345, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/joser/Desktop/Mushroom Platformer/Mushroom Platformer/Library/Bee/artifacts/UnityLinkerInputs/TypesInScenes.xml" }}
-,{ "pid":12345, "tid":1, "ts":1702801431665495, "dur":187, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/joser/Desktop/Mushroom Platformer/Mushroom Platformer/Library/Bee/artifacts/UnityLinkerInputs/EditorToUnityLinkerData.json" }}
-,{ "pid":12345, "tid":1, "ts":1702801431659735, "dur":15356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker /Users/joser/Desktop/Mushroom Platformer/Mushroom Platformer/Library/Bee/artifacts/unitylinker_hph0.traceevents" }}
-,{ "pid":12345, "tid":1, "ts":1702801431678242, "dur":569, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1702801433186626, "dur":3133, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1702801431764439, "dur":1427156, "ph":"X", "name": "UnityLinker",  "args": { "detail":"/Users/joser/Desktop/Mushroom Platformer/Mushroom Platformer/Library/Bee/artifacts/unitylinker_hph0.traceevents" }}
-,{ "pid":12345, "tid":2, "ts":1702801431618179, "dur":25971, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1702801431644162, "dur":1121, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1702801431645284, "dur":1933, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1702801431647218, "dur":2050, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1702801431649269, "dur":676, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1702801431649945, "dur":9840, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1702801431661553, "dur":839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/Resources/MainMenu.nib/designable.nib" }}
-,{ "pid":12345, "tid":2, "ts":1702801431663490, "dur":90, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":2, "ts":1702801431662468, "dur":1142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":2, "ts":1702801431664738, "dur":525, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Build_2.app/Contents/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1702801431664636, "dur":628, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1702801431663808, "dur":1520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1702801431665356, "dur":157, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1702801431665536, "dur":577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1702801431666213, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1702801431666307, "dur":149, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1702801431667416, "dur":122, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1702801431666818, "dur":760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1702801431668927, "dur":67, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":2, "ts":1702801431667782, "dur":1245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/Resources/Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":2, "ts":1702801431669211, "dur":119, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":2, "ts":1702801431669335, "dur":60, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1702801431670337, "dur":94, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":2, "ts":1702801431669567, "dur":894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/Resources/Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":2, "ts":1702801431670600, "dur":150, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/Data/level1.resS" }}
-,{ "pid":12345, "tid":2, "ts":1702801431671584, "dur":110, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/Data/level1.resS" }}
-,{ "pid":12345, "tid":2, "ts":1702801431670924, "dur":825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/Resources/Data/level1.resS" }}
-,{ "pid":12345, "tid":2, "ts":1702801431671882, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":2, "ts":1702801431672912, "dur":251, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Build_2.app/Contents/Resources/Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":2, "ts":1702801431672847, "dur":317, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":2, "ts":1702801431672082, "dur":1195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/Resources/Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":2, "ts":1702801431673309, "dur":177, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1702801431673620, "dur":922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/Resources/Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1702801431674591, "dur":646, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.UnityConnectModule 3-FeaturesChecked.txt_box6.info" }}
-,{ "pid":12345, "tid":2, "ts":1702801431675289, "dur":328, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.UIElementsModule 3-FeaturesChecked.txt_9t66.info" }}
-,{ "pid":12345, "tid":2, "ts":1702801431675661, "dur":601, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.TextCoreTextEngineModule 3-FeaturesChecked.txt_d1st.info" }}
-,{ "pid":12345, "tid":2, "ts":1702801431676300, "dur":453, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.SubstanceModule 3-FeaturesChecked.txt_mpe9.info" }}
-,{ "pid":12345, "tid":2, "ts":1702801431676827, "dur":540, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.SharedInternalsModule 3-FeaturesChecked.txt_bkpn.info" }}
-,{ "pid":12345, "tid":2, "ts":1702801431677386, "dur":948, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.PhysicsModule 3-FeaturesChecked.txt_lvyf.info" }}
-,{ "pid":12345, "tid":2, "ts":1702801431678447, "dur":565, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.JSONSerializeModule 3-FeaturesChecked.txt_qqtt.info" }}
-,{ "pid":12345, "tid":2, "ts":1702801431679095, "dur":1405, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/Mushroom Platformer_o7dv.info" }}
-,{ "pid":12345, "tid":2, "ts":1702801431680527, "dur":259, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.DirectorModule-FeaturesChecked.txt_fk7w.info" }}
-,{ "pid":12345, "tid":2, "ts":1702801431680807, "dur":318, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.DirectorModule 2-FeaturesChecked.txt_9xx5.info" }}
-,{ "pid":12345, "tid":2, "ts":1702801431681156, "dur":389, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.CrashReportingModule 2-FeaturesChecked.txt_0q5d.info" }}
-,{ "pid":12345, "tid":2, "ts":1702801431681578, "dur":665, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1702801431683593, "dur":855, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1702801431682248, "dur":2216, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.ContentLoadModule 2-FeaturesChecked.txt_8fwj.info" }}
-,{ "pid":12345, "tid":2, "ts":1702801431684476, "dur":674, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1702801431685155, "dur":611, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/Unity.VisualScripting.Flow 2-FeaturesChecked.txt_0vow.info" }}
-,{ "pid":12345, "tid":2, "ts":1702801431685818, "dur":643, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/System.Numerics 3-FeaturesChecked.txt_i2a2.info" }}
-,{ "pid":12345, "tid":2, "ts":1702801431686499, "dur":417, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/System.EnterpriseServices 3-FeaturesChecked.txt_betv.info" }}
-,{ "pid":12345, "tid":2, "ts":1702801431686935, "dur":791, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/System.Data 3-FeaturesChecked.txt_6135.info" }}
-,{ "pid":12345, "tid":2, "ts":1702801431687792, "dur":372, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/Polyperfect.Universal 3-FeaturesChecked.txt_v9um.info" }}
-,{ "pid":12345, "tid":2, "ts":1702801431688477, "dur":1521, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1702801431688183, "dur":1830, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/mscorlib 2-FeaturesChecked.txt_v2hs.info" }}
-,{ "pid":12345, "tid":2, "ts":1702801431690027, "dur":2329, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestAudioModule-FeaturesChecked.txt_p8ol.info" }}
-,{ "pid":12345, "tid":2, "ts":1702801431692392, "dur":1505901, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1702801431618210, "dur":25960, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1702801431644178, "dur":1212, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1702801431645391, "dur":1904, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1702801431647296, "dur":2110, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1702801431649407, "dur":166, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1702801431649574, "dur":10188, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1702801431660221, "dur":857, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityPlayer.dylib_qs2n.info" }}
-,{ "pid":12345, "tid":3, "ts":1702801431661444, "dur":424268, "ph":"X", "name": "MacOSCodeSignDylibCopy",  "args": { "detail":"Build_2.app/Contents/Frameworks/UnityPlayer.dylib" }}
-,{ "pid":12345, "tid":3, "ts":1702801432085843, "dur":1112535, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1702801431618220, "dur":25965, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1702801431644192, "dur":1259, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1702801431645452, "dur":2031, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1702801431647484, "dur":2003, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1702801431649487, "dur":10253, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1702801431660597, "dur":2134, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_l6pt.info" }}
-,{ "pid":12345, "tid":4, "ts":1702801431662802, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/PlayerDataCache/OSXUniversal2/Data/boot.config" }}
-,{ "pid":12345, "tid":4, "ts":1702801431662945, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/PlayerDataCache/OSXUniversal2/Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":4, "ts":1702801431666851, "dur":129, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/Player6a5e331a-inputdata.json" }}
-,{ "pid":12345, "tid":4, "ts":1702801431662735, "dur":4458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/MacStandalonePlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":4, "ts":1702801431668624, "dur":2673, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1702801431902699, "dur":91, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1702801431671761, "dur":231058, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":4, "ts":1702801431906361, "dur":701, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":4, "ts":1702801431906348, "dur":716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/Data/boot.config" }}
-,{ "pid":12345, "tid":4, "ts":1702801431907610, "dur":196, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Build_2.app/Contents/Resources/Data/boot.config" }}
-,{ "pid":12345, "tid":4, "ts":1702801431907603, "dur":204, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/Data/boot.config" }}
-,{ "pid":12345, "tid":4, "ts":1702801431907808, "dur":50, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1702801431907126, "dur":750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/Resources/Data/boot.config" }}
-,{ "pid":12345, "tid":4, "ts":1702801431907880, "dur":1290435, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1702801431618248, "dur":25952, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1702801431644208, "dur":1663, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1702801431645871, "dur":2053, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1702801431647926, "dur":1878, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1702801431649805, "dur":9984, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1702801431663024, "dur":1154, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Build_2.app/Contents/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":5, "ts":1702801431662957, "dur":1222, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":5, "ts":1702801431664179, "dur":74, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1702801431662355, "dur":1912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":5, "ts":1702801431664492, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1702801431664613, "dur":93, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1702801431665778, "dur":547, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Build_2.app/Contents/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1702801431665707, "dur":618, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1702801431664940, "dur":1413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1702801431666496, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1702801431666600, "dur":104, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1702801431666720, "dur":53, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1702801431667565, "dur":1307, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Build_2.app/Contents/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1702801431667522, "dur":1351, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1702801431666829, "dur":2079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1702801431669035, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/unity default resources" }}
-,{ "pid":12345, "tid":5, "ts":1702801431669167, "dur":121, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/unity default resources" }}
-,{ "pid":12345, "tid":5, "ts":1702801431670006, "dur":86, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/unity default resources" }}
-,{ "pid":12345, "tid":5, "ts":1702801431669459, "dur":663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/Resources/unity default resources" }}
-,{ "pid":12345, "tid":5, "ts":1702801431670312, "dur":101, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/Data/level1" }}
-,{ "pid":12345, "tid":5, "ts":1702801431671464, "dur":95, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/Data/level1" }}
-,{ "pid":12345, "tid":5, "ts":1702801431670659, "dur":927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/Resources/Data/level1" }}
-,{ "pid":12345, "tid":5, "ts":1702801431671740, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1702801431671792, "dur":82, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1702801431671946, "dur":620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/Resources/Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1702801431672632, "dur":83, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1702801431672832, "dur":547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/Resources/Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1702801431673886, "dur":141, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"WriteText Build_2.app/Contents/Info.plist" }}
-,{ "pid":12345, "tid":5, "ts":1702801431673514, "dur":537, "ph":"X", "name": "WriteText",  "args": { "detail":"Build_2.app/Contents/Info.plist" }}
-,{ "pid":12345, "tid":5, "ts":1702801431674064, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1702801431674259, "dur":473, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestAssetBundleModule 3-FeaturesChecked.txt_ok50.info" }}
-,{ "pid":12345, "tid":5, "ts":1702801431674756, "dur":67, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityAnalyticsModule-FeaturesChecked.txt_cq48.info" }}
-,{ "pid":12345, "tid":5, "ts":1702801431674867, "dur":414, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.UnityAnalyticsCommonModule 3-FeaturesChecked.txt_qu7v.info" }}
-,{ "pid":12345, "tid":5, "ts":1702801431675323, "dur":601, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.UI 2-FeaturesChecked.txt_ly0x.info" }}
-,{ "pid":12345, "tid":5, "ts":1702801431676023, "dur":524, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.TerrainPhysicsModule 3-FeaturesChecked.txt_8355.info" }}
-,{ "pid":12345, "tid":5, "ts":1702801431676577, "dur":50, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.SpriteShapeModule-FeaturesChecked.txt_rm0h.info" }}
-,{ "pid":12345, "tid":5, "ts":1702801431676665, "dur":459, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.SpriteMaskModule 3-FeaturesChecked.txt_v2ac.info" }}
-,{ "pid":12345, "tid":5, "ts":1702801431677159, "dur":363, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule 3-FeaturesChecked.txt_wbem.info" }}
-,{ "pid":12345, "tid":5, "ts":1702801431677554, "dur":835, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.PerformanceReportingModule 3-FeaturesChecked.txt_g9kw.info" }}
-,{ "pid":12345, "tid":5, "ts":1702801431678530, "dur":930, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.InputModule 3-FeaturesChecked.txt_kwza.info" }}
-,{ "pid":12345, "tid":5, "ts":1702801431679500, "dur":830, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.HotReloadModule 3-FeaturesChecked.txt_c9di.info" }}
-,{ "pid":12345, "tid":5, "ts":1702801431680369, "dur":3272, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.GameCenterModule 3-FeaturesChecked.txt_liwf.info" }}
-,{ "pid":12345, "tid":5, "ts":1702801431683675, "dur":356, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.AIModule 2-FeaturesChecked.txt_90vd.info" }}
-,{ "pid":12345, "tid":5, "ts":1702801431684054, "dur":353, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine 3-FeaturesChecked.txt_grap.info" }}
-,{ "pid":12345, "tid":5, "ts":1702801431684428, "dur":711, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/Unity.VisualScripting.Flow-FeaturesChecked.txt_ugjg.info" }}
-,{ "pid":12345, "tid":5, "ts":1702801431685182, "dur":480, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/System.Xml 3-FeaturesChecked.txt_7g6y.info" }}
-,{ "pid":12345, "tid":5, "ts":1702801431686473, "dur":281, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1702801431685798, "dur":968, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/System.Security 3-FeaturesChecked.txt_saiv.info" }}
-,{ "pid":12345, "tid":5, "ts":1702801431686769, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1702801431686882, "dur":139, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/System.Data.DataSetExtensions-FeaturesChecked.txt_h20m.info" }}
-,{ "pid":12345, "tid":5, "ts":1702801431687092, "dur":770, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/System.Configuration 3-FeaturesChecked.txt_mx35.info" }}
-,{ "pid":12345, "tid":5, "ts":1702801431687896, "dur":344, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/netstandard 2-FeaturesChecked.txt_a5ap.info" }}
-,{ "pid":12345, "tid":5, "ts":1702801431688252, "dur":822, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/Mono.Security-FeaturesChecked.txt_tcfg.info" }}
-,{ "pid":12345, "tid":5, "ts":1702801431689111, "dur":1071, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1702801431690187, "dur":605, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/Mono.Security 3-FeaturesChecked.txt_8tba.info" }}
-,{ "pid":12345, "tid":5, "ts":1702801431692578, "dur":105, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1702801431690843, "dur":1904, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.VideoModule 3-FeaturesChecked.txt_hlue.info" }}
-,{ "pid":12345, "tid":5, "ts":1702801431692749, "dur":1505585, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1702801431618289, "dur":25925, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1702801431644222, "dur":1693, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1702801431645916, "dur":2090, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1702801431648007, "dur":1843, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1702801431649851, "dur":9922, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1702801431662309, "dur":237, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/Data/app.info" }}
-,{ "pid":12345, "tid":6, "ts":1702801431661803, "dur":770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/Resources/Data/app.info" }}
-,{ "pid":12345, "tid":6, "ts":1702801431663613, "dur":601, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Build_2.app/Contents/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1702801431663541, "dur":674, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1702801431664216, "dur":100, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1702801431662856, "dur":1475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1702801431664556, "dur":117, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1702801431664678, "dur":50, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1702801431665678, "dur":60, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1702801431664960, "dur":844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1702801431665951, "dur":79, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1702801431667068, "dur":782, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Build_2.app/Contents/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1702801431667043, "dur":808, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1702801431666523, "dur":1396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1702801431669155, "dur":106, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/MainMenu.nib/keyedobjects.nib" }}
-,{ "pid":12345, "tid":6, "ts":1702801431668006, "dur":1297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/Resources/MainMenu.nib/keyedobjects.nib" }}
-,{ "pid":12345, "tid":6, "ts":1702801431669488, "dur":103, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/Data/level0" }}
-,{ "pid":12345, "tid":6, "ts":1702801431670438, "dur":96, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/Data/level0" }}
-,{ "pid":12345, "tid":6, "ts":1702801431669697, "dur":882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/Resources/Data/level0" }}
-,{ "pid":12345, "tid":6, "ts":1702801431670729, "dur":79, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/Data/level2" }}
-,{ "pid":12345, "tid":6, "ts":1702801431671526, "dur":92, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/Data/level2" }}
-,{ "pid":12345, "tid":6, "ts":1702801431670901, "dur":739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/Resources/Data/level2" }}
-,{ "pid":12345, "tid":6, "ts":1702801431671831, "dur":77, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":6, "ts":1702801431672765, "dur":352, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Build_2.app/Contents/Resources/Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":6, "ts":1702801431672688, "dur":430, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":6, "ts":1702801431671969, "dur":1278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/Resources/Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":6, "ts":1702801431673268, "dur":239, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":6, "ts":1702801431673573, "dur":725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/Resources/Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":6, "ts":1702801431674791, "dur":91, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1702801431674406, "dur":489, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.UnityTestProtocolModule 3-FeaturesChecked.txt_hueg.info" }}
-,{ "pid":12345, "tid":6, "ts":1702801431674942, "dur":525, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.UmbraModule 3-FeaturesChecked.txt_z0kq.info" }}
-,{ "pid":12345, "tid":6, "ts":1702801431675538, "dur":601, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.TilemapModule 3-FeaturesChecked.txt_gi15.info" }}
-,{ "pid":12345, "tid":6, "ts":1702801431676188, "dur":525, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.SubsystemsModule 3-FeaturesChecked.txt_mlo8.info" }}
-,{ "pid":12345, "tid":6, "ts":1702801431676815, "dur":506, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.ScreenCaptureModule 3-FeaturesChecked.txt_gxc0.info" }}
-,{ "pid":12345, "tid":6, "ts":1702801431677334, "dur":69, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.PhysicsModule-FeaturesChecked.txt_26rb.info" }}
-,{ "pid":12345, "tid":6, "ts":1702801431677495, "dur":827, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.Physics2DModule 3-FeaturesChecked.txt_3zlv.info" }}
-,{ "pid":12345, "tid":6, "ts":1702801431678355, "dur":75, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1702801431678435, "dur":441, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.MarshallingModule 3-FeaturesChecked.txt_y70g.info" }}
-,{ "pid":12345, "tid":6, "ts":1702801431679557, "dur":68, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1702801431678918, "dur":786, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.InputLegacyModule 3-FeaturesChecked.txt_tgdn.info" }}
-,{ "pid":12345, "tid":6, "ts":1702801431679741, "dur":693, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.GridModule 3-FeaturesChecked.txt_c8qs.info" }}
-,{ "pid":12345, "tid":6, "ts":1702801431680766, "dur":835, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1702801431680467, "dur":1146, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.DSPGraphModule 2-FeaturesChecked.txt_yshh.info" }}
-,{ "pid":12345, "tid":6, "ts":1702801431681631, "dur":484, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.CommandStateObserverModule 2-FeaturesChecked.txt_lfi6.info" }}
-,{ "pid":12345, "tid":6, "ts":1702801431682156, "dur":325, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.ClothModule 2-FeaturesChecked.txt_zsh4.info" }}
-,{ "pid":12345, "tid":6, "ts":1702801431684239, "dur":725, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1702801431682517, "dur":2462, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.AssetBundleModule 2-FeaturesChecked.txt_nlf2.info" }}
-,{ "pid":12345, "tid":6, "ts":1702801431685017, "dur":725, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/Unity.TextMeshPro 3-FeaturesChecked.txt_f8om.info" }}
-,{ "pid":12345, "tid":6, "ts":1702801431685787, "dur":644, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/System.Runtime.Serialization 3-FeaturesChecked.txt_u8k9.info" }}
-,{ "pid":12345, "tid":6, "ts":1702801431686493, "dur":442, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/System.IO.Compression 3-FeaturesChecked.txt_uhto.info" }}
-,{ "pid":12345, "tid":6, "ts":1702801431688639, "dur":1411, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1702801431686969, "dur":3092, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/System.Core 2-FeaturesChecked.txt_quk5.info" }}
-,{ "pid":12345, "tid":6, "ts":1702801431690135, "dur":802, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestWWWModule 3-FeaturesChecked.txt_9g88.info" }}
-,{ "pid":12345, "tid":6, "ts":1702801431692672, "dur":140, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1702801431690971, "dur":1878, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.VirtualTexturingModule 3-FeaturesChecked.txt_zcxj.info" }}
-,{ "pid":12345, "tid":6, "ts":1702801431692850, "dur":1505546, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1702801431618294, "dur":25936, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1702801431644238, "dur":1658, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1702801431645897, "dur":2076, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1702801431647974, "dur":1869, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1702801431649844, "dur":10006, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1702801431663557, "dur":94, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":7, "ts":1702801431662591, "dur":1130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":7, "ts":1702801431663836, "dur":77, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1702801431664656, "dur":109, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1702801431663936, "dur":888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1702801431664871, "dur":96, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1702801431665892, "dur":521, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Build_2.app/Contents/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1702801431665812, "dur":602, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1702801431665054, "dur":1386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1702801431666577, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":7, "ts":1702801431666687, "dur":128, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":7, "ts":1702801431667373, "dur":540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":7, "ts":1702801431669238, "dur":134, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Frameworks/libMonoPosixHelper.dylib" }}
-,{ "pid":12345, "tid":7, "ts":1702801431667981, "dur":1414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/Frameworks/libMonoPosixHelper.dylib" }}
-,{ "pid":12345, "tid":7, "ts":1702801431669550, "dur":109, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/Data/level0.resS" }}
-,{ "pid":12345, "tid":7, "ts":1702801431669669, "dur":76, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1702801431670828, "dur":59, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/Data/level0.resS" }}
-,{ "pid":12345, "tid":7, "ts":1702801431669913, "dur":998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/Resources/Data/level0.resS" }}
-,{ "pid":12345, "tid":7, "ts":1702801431671004, "dur":60, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/Data/resources.assets" }}
-,{ "pid":12345, "tid":7, "ts":1702801431671096, "dur":899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/Resources/Data/resources.assets" }}
-,{ "pid":12345, "tid":7, "ts":1702801431672903, "dur":57, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":7, "ts":1702801431672119, "dur":869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/Resources/Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":7, "ts":1702801431673063, "dur":860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/Resources/Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1702801431674088, "dur":363, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestAudioModule 3-FeaturesChecked.txt_kyy5.info" }}
-,{ "pid":12345, "tid":7, "ts":1702801431674526, "dur":397, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.UnityCurlModule 3-FeaturesChecked.txt_3dc7.info" }}
-,{ "pid":12345, "tid":7, "ts":1702801431674962, "dur":571, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.UIModule 3-FeaturesChecked.txt_iqgd.info" }}
-,{ "pid":12345, "tid":7, "ts":1702801431675574, "dur":529, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.TextRenderingModule 3-FeaturesChecked.txt_hmm2.info" }}
-,{ "pid":12345, "tid":7, "ts":1702801431676152, "dur":449, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.TerrainModule 3-FeaturesChecked.txt_3avy.info" }}
-,{ "pid":12345, "tid":7, "ts":1702801431676618, "dur":120, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1702801431676742, "dur":513, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.SpriteShapeModule 3-FeaturesChecked.txt_uqea.info" }}
-,{ "pid":12345, "tid":7, "ts":1702801431677273, "dur":1009, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.PropertiesModule 3-FeaturesChecked.txt_hmrt.info" }}
-,{ "pid":12345, "tid":7, "ts":1702801431678421, "dur":60, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1702801431678501, "dur":944, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.ParticleSystemModule 3-FeaturesChecked.txt_zmxs.info" }}
-,{ "pid":12345, "tid":7, "ts":1702801431679464, "dur":554, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.ImageConversionModule 3-FeaturesChecked.txt_ndjf.info" }}
-,{ "pid":12345, "tid":7, "ts":1702801431680106, "dur":1418, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.GraphToolsFoundationModule 3-FeaturesChecked.txt_6f8w.info" }}
-,{ "pid":12345, "tid":7, "ts":1702801431681558, "dur":366, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.CoreModule 2-FeaturesChecked.txt_k0kp.info" }}
-,{ "pid":12345, "tid":7, "ts":1702801431681962, "dur":388, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.ClusterInputModule 2-FeaturesChecked.txt_tegg.info" }}
-,{ "pid":12345, "tid":7, "ts":1702801431682389, "dur":381, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.AudioModule 2-FeaturesChecked.txt_z7d3.info" }}
-,{ "pid":12345, "tid":7, "ts":1702801431682808, "dur":355, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.ARModule 2-FeaturesChecked.txt_2wfb.info" }}
-,{ "pid":12345, "tid":7, "ts":1702801431683194, "dur":386, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.AnimationModule 2-FeaturesChecked.txt_5hoq.info" }}
-,{ "pid":12345, "tid":7, "ts":1702801431684503, "dur":327, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.AndroidJNIModule 2-FeaturesChecked.txt_3lli.info" }}
-,{ "pid":12345, "tid":7, "ts":1702801431684878, "dur":474, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/Unity.Timeline 3-FeaturesChecked.txt_5txz.info" }}
-,{ "pid":12345, "tid":7, "ts":1702801431685390, "dur":468, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/System.Transactions 3-FeaturesChecked.txt_5gl5.info" }}
-,{ "pid":12345, "tid":7, "ts":1702801431685890, "dur":763, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/System.Net.Http 3-FeaturesChecked.txt_d82q.info" }}
-,{ "pid":12345, "tid":7, "ts":1702801431686839, "dur":757, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/System.Drawing 3-FeaturesChecked.txt_u9gp.info" }}
-,{ "pid":12345, "tid":7, "ts":1702801431687613, "dur":490, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/System 2-FeaturesChecked.txt_xg1l.info" }}
-,{ "pid":12345, "tid":7, "ts":1702801431688116, "dur":1946, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/mscorlib-FeaturesChecked.txt_h5ip.info" }}
-,{ "pid":12345, "tid":7, "ts":1702801431690086, "dur":449, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestTextureModule 3-FeaturesChecked.txt_t1aa.info" }}
-,{ "pid":12345, "tid":7, "ts":1702801431690554, "dur":1552, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.VehiclesModule 3-FeaturesChecked.txt_h37d.info" }}
-,{ "pid":12345, "tid":7, "ts":1702801431692143, "dur":354, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.XRModule 3-FeaturesChecked.txt_4ezl.info" }}
-,{ "pid":12345, "tid":7, "ts":1702801431692498, "dur":1505867, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1702801431618303, "dur":25938, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1702801431644243, "dur":1736, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1702801431645979, "dur":2068, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1702801431648048, "dur":1825, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1702801431649874, "dur":9906, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1702801431659812, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp/StagingArea/DefaultPreferences.plist" }}
-,{ "pid":12345, "tid":8, "ts":1702801431659783, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/DefaultPreferences.plist" }}
-,{ "pid":12345, "tid":8, "ts":1702801431663038, "dur":305, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Build_2.app/Contents/Resources/DefaultPreferences.plist" }}
-,{ "pid":12345, "tid":8, "ts":1702801431663003, "dur":342, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/DefaultPreferences.plist" }}
-,{ "pid":12345, "tid":8, "ts":1702801431662548, "dur":830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/Resources/DefaultPreferences.plist" }}
-,{ "pid":12345, "tid":8, "ts":1702801431664229, "dur":84, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1702801431663622, "dur":727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1702801431664471, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":8, "ts":1702801431664596, "dur":100, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":8, "ts":1702801431665000, "dur":509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":8, "ts":1702801431666324, "dur":76, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":8, "ts":1702801431665718, "dur":708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":8, "ts":1702801431666564, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1702801431666663, "dur":98, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1702801431666850, "dur":883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1702801431667748, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Frameworks/libmonobdwgc-2.0.dylib" }}
-,{ "pid":12345, "tid":8, "ts":1702801431667837, "dur":63, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1702801431669139, "dur":82, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Frameworks/libmonobdwgc-2.0.dylib" }}
-,{ "pid":12345, "tid":8, "ts":1702801431667927, "dur":1322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/Frameworks/libmonobdwgc-2.0.dylib" }}
-,{ "pid":12345, "tid":8, "ts":1702801431669458, "dur":92, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1702801431670378, "dur":97, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1702801431670476, "dur":104, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1702801431669706, "dur":888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/Resources/Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1702801431670761, "dur":86, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/Data/level2.resS" }}
-,{ "pid":12345, "tid":8, "ts":1702801431671499, "dur":95, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/Data/level2.resS" }}
-,{ "pid":12345, "tid":8, "ts":1702801431670889, "dur":732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/Resources/Data/level2.resS" }}
-,{ "pid":12345, "tid":8, "ts":1702801431671773, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":8, "ts":1702801431671827, "dur":89, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":8, "ts":1702801431672740, "dur":74, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":8, "ts":1702801431672184, "dur":658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/Resources/Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":8, "ts":1702801431673671, "dur":63, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Resources/Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":8, "ts":1702801431673052, "dur":709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/Resources/Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":8, "ts":1702801431673930, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Frameworks/libmono-native.dylib" }}
-,{ "pid":12345, "tid":8, "ts":1702801431674021, "dur":114, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Build_2.app/Contents/Frameworks/libmono-native.dylib" }}
-,{ "pid":12345, "tid":8, "ts":1702801431674284, "dur":492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_2.app/Contents/Frameworks/libmono-native.dylib" }}
-,{ "pid":12345, "tid":8, "ts":1702801431674806, "dur":92, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1702801431674903, "dur":422, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.UnityAnalyticsModule 3-FeaturesChecked.txt_j9i9.info" }}
-,{ "pid":12345, "tid":8, "ts":1702801431675332, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1702801431675415, "dur":404, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.TLSModule 3-FeaturesChecked.txt_lcep.info" }}
-,{ "pid":12345, "tid":8, "ts":1702801431675892, "dur":550, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.TextCoreFontEngineModule 3-FeaturesChecked.txt_j0kg.info" }}
-,{ "pid":12345, "tid":8, "ts":1702801431676445, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1702801431676609, "dur":637, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.StreamingModule 3-FeaturesChecked.txt_oh38.info" }}
-,{ "pid":12345, "tid":8, "ts":1702801431677299, "dur":963, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.ProfilerModule 3-FeaturesChecked.txt_z35w.info" }}
-,{ "pid":12345, "tid":8, "ts":1702801431678392, "dur":654, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.LocalizationModule 3-FeaturesChecked.txt_fsp0.info" }}
-,{ "pid":12345, "tid":8, "ts":1702801431679063, "dur":980, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.IMGUIModule 3-FeaturesChecked.txt_5qpj.info" }}
-,{ "pid":12345, "tid":8, "ts":1702801431680154, "dur":1446, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.GIModule 2-FeaturesChecked.txt_vmtz.info" }}
-,{ "pid":12345, "tid":8, "ts":1702801431681660, "dur":2235, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.ClusterRendererModule 2-FeaturesChecked.txt_eeoa.info" }}
-,{ "pid":12345, "tid":8, "ts":1702801431683941, "dur":327, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.AccessibilityModule 2-FeaturesChecked.txt_fy1i.info" }}
-,{ "pid":12345, "tid":8, "ts":1702801431684306, "dur":352, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/Unity.VisualScripting.State 2-FeaturesChecked.txt_9uo2.info" }}
-,{ "pid":12345, "tid":8, "ts":1702801431684695, "dur":356, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/Unity.VisualScripting.Core 3-FeaturesChecked.txt_629d.info" }}
-,{ "pid":12345, "tid":8, "ts":1702801431685111, "dur":411, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/System.Xml.Linq 3-FeaturesChecked.txt_jevy.info" }}
-,{ "pid":12345, "tid":8, "ts":1702801431685557, "dur":364, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/System.ServiceModel.Internals 3-FeaturesChecked.txt_k31y.info" }}
-,{ "pid":12345, "tid":8, "ts":1702801431685989, "dur":697, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/System.IO.Compression.FileSystem 3-FeaturesChecked.txt_f4zg.info" }}
-,{ "pid":12345, "tid":8, "ts":1702801431686727, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1702801431686844, "dur":583, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/System.Data.DataSetExtensions 3-FeaturesChecked.txt_8cwa.info" }}
-,{ "pid":12345, "tid":8, "ts":1702801431687466, "dur":1682, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/System.ComponentModel.Composition 3-FeaturesChecked.txt_s4g9.info" }}
-,{ "pid":12345, "tid":8, "ts":1702801431689192, "dur":359, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/Cinemachine 3-FeaturesChecked.txt_z7px.info" }}
-,{ "pid":12345, "tid":8, "ts":1702801431689590, "dur":458, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/Assembly-CSharp 3-FeaturesChecked.txt_njl9.info" }}
-,{ "pid":12345, "tid":8, "ts":1702801431690070, "dur":402, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestModule 3-FeaturesChecked.txt_aswp.info" }}
-,{ "pid":12345, "tid":8, "ts":1702801431690485, "dur":314, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestWWWModule-FeaturesChecked.txt_qggm.info" }}
-,{ "pid":12345, "tid":8, "ts":1702801431690821, "dur":336, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.VFXModule 3-FeaturesChecked.txt_uppz.info" }}
-,{ "pid":12345, "tid":8, "ts":1702801431691191, "dur":330, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.VRModule 3-FeaturesChecked.txt_et5z.info" }}
-,{ "pid":12345, "tid":8, "ts":1702801431691561, "dur":1220, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.WindModule 3-FeaturesChecked.txt_ugby.info" }}
-,{ "pid":12345, "tid":8, "ts":1702801431692783, "dur":1505568, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1702801433212534, "dur":1234, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1702803215830130, "dur":57, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702803215830217, "dur":70833, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702803215901067, "dur":141, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702803215901280, "dur":105, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1702803215901386, "dur":185, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702803215902611, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/Managed/Cinemachine 2.dll" }}
+,{ "pid":12345, "tid":0, "ts":1702803215907093, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1702803215907157, "dur":76, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/Managed/UnityEngine.SubstanceModule 2.dll" }}
+,{ "pid":12345, "tid":0, "ts":1702803215907893, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/Managed/UnityEngine.TLSModule 2.dll" }}
+,{ "pid":12345, "tid":0, "ts":1702803215911485, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.EnterpriseServices-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":0, "ts":1702803215917984, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ProfilerModule 2-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":0, "ts":1702803215921535, "dur":1022, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityCurlModule-FeaturesChecked.txt_8vyn.info" }}
+,{ "pid":12345, "tid":0, "ts":1702803215923818, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.VFXModule-FeaturesChecked.txt_bxls.info" }}
+,{ "pid":12345, "tid":0, "ts":1702803215924400, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.WindModule 2-FeaturesChecked.txt_pdwl.info" }}
+,{ "pid":12345, "tid":0, "ts":1702803215901585, "dur":24286, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702803215925883, "dur":1470705, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702803217396600, "dur":63, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702803217396967, "dur":2319, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1702803215901491, "dur":24423, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702803215925927, "dur":1771, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702803215927698, "dur":2086, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702803215929785, "dur":1779, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702803215931564, "dur":245, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702803215931809, "dur":9409, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702803215943764, "dur":907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/Resources/MainMenu.nib/designable.nib" }}
+,{ "pid":12345, "tid":1, "ts":1702803215944724, "dur":281, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1702803215946141, "dur":328, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1702803215946072, "dur":398, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1702803215945485, "dur":1013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1702803215946552, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1702803215946623, "dur":214, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1702803215946842, "dur":64, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702803215947972, "dur":837, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1702803215947902, "dur":908, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1702803215947291, "dur":1758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1702803215949211, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1702803215949306, "dur":80, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1702803215950267, "dur":75, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1702803215949635, "dur":735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1702803215950497, "dur":66, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1702803215951112, "dur":110, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702803215950662, "dur":575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/Resources/Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1702803215951269, "dur":99, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1702803215951576, "dur":923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1702803215952517, "dur":234, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1702803215952911, "dur":654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/Resources/Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1702803215953734, "dur":179, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1702803215954100, "dur":557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/Resources/Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1702803215954669, "dur":252, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1702803215955528, "dur":93, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702803215954990, "dur":644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/Resources/Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1702803215955656, "dur":74, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1702803215956564, "dur":69, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1702803215955807, "dur":895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/Resources/Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1702803215957221, "dur":124, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"WriteText CatWantFish.app/Contents/Info.plist" }}
+,{ "pid":12345, "tid":1, "ts":1702803215957346, "dur":186, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702803215956826, "dur":718, "ph":"X", "name": "WriteText",  "args": { "detail":"CatWantFish.app/Contents/Info.plist" }}
+,{ "pid":12345, "tid":1, "ts":1702803215957552, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702803215957661, "dur":719, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.UnityAnalyticsModule 2-FeaturesChecked.txt_e63w.info" }}
+,{ "pid":12345, "tid":1, "ts":1702803215958423, "dur":666, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.TLSModule 2-FeaturesChecked.txt_g9yc.info" }}
+,{ "pid":12345, "tid":1, "ts":1702803215959158, "dur":381, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.TerrainPhysicsModule 2-FeaturesChecked.txt_30qt.info" }}
+,{ "pid":12345, "tid":1, "ts":1702803215959569, "dur":184, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702803215959757, "dur":1131, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.SubstanceModule 2-FeaturesChecked.txt_hmzw.info" }}
+,{ "pid":12345, "tid":1, "ts":1702803215960898, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702803215961007, "dur":519, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.PropertiesModule 2-FeaturesChecked.txt_cjch.info" }}
+,{ "pid":12345, "tid":1, "ts":1702803215961541, "dur":58, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702803215961823, "dur":523, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.Physics2DModule 2-FeaturesChecked.txt_yw6i.info" }}
+,{ "pid":12345, "tid":1, "ts":1702803215962380, "dur":1413, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.IMGUIModule 2-FeaturesChecked.txt_0na7.info" }}
+,{ "pid":12345, "tid":1, "ts":1702803215963842, "dur":486, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.DSPGraphModule 3-FeaturesChecked.txt_3vwt.info" }}
+,{ "pid":12345, "tid":1, "ts":1702803215964361, "dur":831, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.CoreModule 3-FeaturesChecked.txt_p3z1.info" }}
+,{ "pid":12345, "tid":1, "ts":1702803215965231, "dur":571, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.AudioModule 3-FeaturesChecked.txt_4atf.info" }}
+,{ "pid":12345, "tid":1, "ts":1702803215965835, "dur":709, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.AnimationModule 3-FeaturesChecked.txt_al32.info" }}
+,{ "pid":12345, "tid":1, "ts":1702803215967762, "dur":273, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702803215966586, "dur":1464, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/Unity.VisualScripting.State 3-FeaturesChecked.txt_ey3e.info" }}
+,{ "pid":12345, "tid":1, "ts":1702803215968214, "dur":744, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/System.Runtime.Serialization 2-FeaturesChecked.txt_p55w.info" }}
+,{ "pid":12345, "tid":1, "ts":1702803215969316, "dur":1294, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702803215968992, "dur":2949, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/System.Net.Http 2-FeaturesChecked.txt_ox46.info" }}
+,{ "pid":12345, "tid":1, "ts":1702803215971985, "dur":690, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/System.ComponentModel.Composition 2-FeaturesChecked.txt_n11w.info" }}
+,{ "pid":12345, "tid":1, "ts":1702803215972710, "dur":360, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/mscorlib 3-FeaturesChecked.txt_05w4.info" }}
+,{ "pid":12345, "tid":1, "ts":1702803215973422, "dur":360, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702803215973105, "dur":691, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/Cinemachine 2-FeaturesChecked.txt_axrd.info" }}
+,{ "pid":12345, "tid":1, "ts":1702803215974605, "dur":142, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702803215973835, "dur":950, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestModule 2-FeaturesChecked.txt_5ohd.info" }}
+,{ "pid":12345, "tid":1, "ts":1702803215974827, "dur":822, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.VRModule 2-FeaturesChecked.txt_9pqn.info" }}
+,{ "pid":12345, "tid":1, "ts":1702803215975651, "dur":1420966, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702803215901491, "dur":24443, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702803215925941, "dur":1627, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702803215927569, "dur":2102, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702803215929672, "dur":1856, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702803215931529, "dur":336, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702803215931865, "dur":9408, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702803215945370, "dur":934, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1702803215945291, "dur":1014, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1702803215944342, "dur":1991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1702803215946387, "dur":361, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1702803215947387, "dur":487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1702803215948211, "dur":549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1702803215949111, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1702803215949231, "dur":106, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1702803215950250, "dur":1203, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1702803215950163, "dur":1291, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1702803215949447, "dur":2032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1702803215951627, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1702803215951747, "dur":149, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1702803215952866, "dur":69, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1702803215952066, "dur":893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/Resources/Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1702803215953109, "dur":60, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1702803215954077, "dur":93, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1702803215954171, "dur":59, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702803215953269, "dur":972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/Resources/Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1702803215954351, "dur":98, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1702803215955137, "dur":82, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1702803215954470, "dur":776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/Resources/Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1702803215955380, "dur":841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/Resources/Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1702803215956420, "dur":56, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1702803215956683, "dur":820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/Resources/Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1702803215957669, "dur":381, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.UnityConnectModule 2-FeaturesChecked.txt_6kiu.info" }}
+,{ "pid":12345, "tid":2, "ts":1702803215958821, "dur":86, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702803215958091, "dur":829, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.UIElementsModule 2-FeaturesChecked.txt_kj8m.info" }}
+,{ "pid":12345, "tid":2, "ts":1702803215958944, "dur":700, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.TextCoreTextEngineModule 2-FeaturesChecked.txt_8xdh.info" }}
+,{ "pid":12345, "tid":2, "ts":1702803215959683, "dur":498, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.StreamingModule 2-FeaturesChecked.txt_jeow.info" }}
+,{ "pid":12345, "tid":2, "ts":1702803215960223, "dur":706, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.SharedInternalsModule 2-FeaturesChecked.txt_6gab.info" }}
+,{ "pid":12345, "tid":2, "ts":1702803215960954, "dur":525, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule 2-FeaturesChecked.txt_70f2.info" }}
+,{ "pid":12345, "tid":2, "ts":1702803215961487, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702803215961565, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702803215961691, "dur":479, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.ParticleSystemModule 2-FeaturesChecked.txt_ujig.info" }}
+,{ "pid":12345, "tid":2, "ts":1702803215962236, "dur":275, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702803215962516, "dur":575, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.InputModule 2-FeaturesChecked.txt_ftky.info" }}
+,{ "pid":12345, "tid":2, "ts":1702803215963110, "dur":354, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.HotReloadModule 2-FeaturesChecked.txt_75y5.info" }}
+,{ "pid":12345, "tid":2, "ts":1702803215963497, "dur":1144, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.GraphToolsFoundationModule 2-FeaturesChecked.txt_1ctk.info" }}
+,{ "pid":12345, "tid":2, "ts":1702803215964680, "dur":349, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.CommandStateObserverModule 3-FeaturesChecked.txt_qixi.info" }}
+,{ "pid":12345, "tid":2, "ts":1702803215965470, "dur":450, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702803215965046, "dur":889, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.ClothModule 3-FeaturesChecked.txt_4vwg.info" }}
+,{ "pid":12345, "tid":2, "ts":1702803215965950, "dur":499, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.AndroidJNIModule-FeaturesChecked.txt_llt1.info" }}
+,{ "pid":12345, "tid":2, "ts":1702803215966491, "dur":582, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.AccessibilityModule 3-FeaturesChecked.txt_k1gv.info" }}
+,{ "pid":12345, "tid":2, "ts":1702803215967092, "dur":254, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/Unity.VisualScripting.Antlr3.Runtime-FeaturesChecked.txt_knev.info" }}
+,{ "pid":12345, "tid":2, "ts":1702803215967435, "dur":350, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/Unity.TextMeshPro 2-FeaturesChecked.txt_a599.info" }}
+,{ "pid":12345, "tid":2, "ts":1702803215967819, "dur":642, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/System.Transactions 2-FeaturesChecked.txt_0d6s.info" }}
+,{ "pid":12345, "tid":2, "ts":1702803215968499, "dur":3785, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/System.Numerics 2-FeaturesChecked.txt_trci.info" }}
+,{ "pid":12345, "tid":2, "ts":1702803215972294, "dur":845, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702803215973144, "dur":387, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/System 3-FeaturesChecked.txt_2jgy.info" }}
+,{ "pid":12345, "tid":2, "ts":1702803215974166, "dur":136, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702803215973566, "dur":748, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestAudioModule 2-FeaturesChecked.txt_fvjt.info" }}
+,{ "pid":12345, "tid":2, "ts":1702803215974353, "dur":340, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.VehiclesModule 2-FeaturesChecked.txt_c0s1.info" }}
+,{ "pid":12345, "tid":2, "ts":1702803215974724, "dur":815, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.VirtualTexturingModule 2-FeaturesChecked.txt_u9h7.info" }}
+,{ "pid":12345, "tid":2, "ts":1702803215975566, "dur":1421129, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702803215901491, "dur":24410, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702803215925909, "dur":15257, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702803215941721, "dur":161, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/joser/Desktop/Mushroom Platformer/Mushroom Platformer/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702803215941891, "dur":302, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/joser/Desktop/Mushroom Platformer/Mushroom Platformer/Library/Bee/PlayerScriptAssemblies/Cinemachine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702803215942201, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/joser/Desktop/Mushroom Platformer/Mushroom Platformer/Library/Bee/PlayerScriptAssemblies/Polyperfect.Universal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702803215942277, "dur":335, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/joser/Desktop/Mushroom Platformer/Mushroom Platformer/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702803215942617, "dur":393, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/joser/Desktop/Mushroom Platformer/Mushroom Platformer/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702803215943016, "dur":701, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/joser/Desktop/Mushroom Platformer/Mushroom Platformer/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702803215943722, "dur":431, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/joser/Desktop/Mushroom Platformer/Mushroom Platformer/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702803215944321, "dur":113, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/joser/Desktop/Mushroom Platformer/Mushroom Platformer/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702803215944439, "dur":255, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/joser/Desktop/Mushroom Platformer/Mushroom Platformer/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702803215947842, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/joser/Desktop/Mushroom Platformer/Mushroom Platformer/Library/Bee/artifacts/UnityLinkerInputs/MethodsToPreserve.xml" }}
+,{ "pid":12345, "tid":3, "ts":1702803215947993, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/joser/Desktop/Mushroom Platformer/Mushroom Platformer/Library/Bee/artifacts/UnityLinkerInputs/TypesInScenes.xml" }}
+,{ "pid":12345, "tid":3, "ts":1702803215948136, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/joser/Desktop/Mushroom Platformer/Mushroom Platformer/Library/Bee/artifacts/UnityLinkerInputs/SerializedTypes.xml" }}
+,{ "pid":12345, "tid":3, "ts":1702803215948263, "dur":126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/joser/Desktop/Mushroom Platformer/Mushroom Platformer/Library/Bee/artifacts/UnityLinkerInputs/EditorToUnityLinkerData.json" }}
+,{ "pid":12345, "tid":3, "ts":1702803215941169, "dur":16674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker /Users/joser/Desktop/Mushroom Platformer/Mushroom Platformer/Library/Bee/artifacts/unitylinker_hph0.traceevents" }}
+,{ "pid":12345, "tid":3, "ts":1702803215960871, "dur":1201, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702803217389006, "dur":1960, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702803216018290, "dur":1373882, "ph":"X", "name": "UnityLinker",  "args": { "detail":"/Users/joser/Desktop/Mushroom Platformer/Mushroom Platformer/Library/Bee/artifacts/unitylinker_hph0.traceevents" }}
+,{ "pid":12345, "tid":4, "ts":1702803215901493, "dur":24456, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702803215925958, "dur":1804, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702803215927762, "dur":2060, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702803215929823, "dur":1803, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702803215931626, "dur":9544, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702803215941173, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_l6pt.info" }}
+,{ "pid":12345, "tid":4, "ts":1702803215942218, "dur":1880, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_l6pt.info" }}
+,{ "pid":12345, "tid":4, "ts":1702803215944112, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/PlayerDataCache/OSXUniversal2/Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1702803215944236, "dur":154, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/PlayerDataCache/OSXUniversal2/Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1702803215947680, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/Player0db37685-inputdata.json" }}
+,{ "pid":12345, "tid":4, "ts":1702803215944102, "dur":3783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/MacStandalonePlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1702803215948992, "dur":1950, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702803215951295, "dur":271085, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1702803216226105, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1702803216226094, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1702803216226607, "dur":146, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"CatWantFish.app/Contents/Resources/Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1702803216226599, "dur":155, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1702803216226205, "dur":588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/Resources/Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1702803216226798, "dur":1169854, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702803215901519, "dur":24442, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702803215925967, "dur":1914, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702803215927882, "dur":2050, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702803215929933, "dur":1817, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702803215931750, "dur":9532, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702803215945308, "dur":95, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1702803215944197, "dur":1236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1702803215945680, "dur":127, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1702803215946917, "dur":69, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1702803215946172, "dur":840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1702803215947176, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1702803215947246, "dur":128, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1702803215947378, "dur":98, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702803215947492, "dur":779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1702803215949252, "dur":633, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1702803215949133, "dur":753, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1702803215948463, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1702803215949985, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Frameworks/libmono-native.dylib" }}
+,{ "pid":12345, "tid":5, "ts":1702803215950049, "dur":79, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Frameworks/libmono-native.dylib" }}
+,{ "pid":12345, "tid":5, "ts":1702803215951569, "dur":108, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Frameworks/libmono-native.dylib" }}
+,{ "pid":12345, "tid":5, "ts":1702803215950349, "dur":1380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/Frameworks/libmono-native.dylib" }}
+,{ "pid":12345, "tid":5, "ts":1702803215951839, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1702803215951919, "dur":78, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1702803215952745, "dur":87, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1702803215952090, "dur":777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/Resources/Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1702803215952958, "dur":128, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/level1.resS" }}
+,{ "pid":12345, "tid":5, "ts":1702803215953886, "dur":59, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/level1.resS" }}
+,{ "pid":12345, "tid":5, "ts":1702803215953946, "dur":64, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702803215953181, "dur":842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/Resources/Data/level1.resS" }}
+,{ "pid":12345, "tid":5, "ts":1702803215954129, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1702803215954183, "dur":67, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1702803215955165, "dur":433, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"CatWantFish.app/Contents/Resources/Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1702803215955084, "dur":515, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1702803215955599, "dur":95, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702803215954355, "dur":1351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/Resources/Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1702803215955748, "dur":105, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702803215956256, "dur":734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/Resources/Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1702803215957212, "dur":681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/Frameworks/libMonoPosixHelper.dylib" }}
+,{ "pid":12345, "tid":5, "ts":1702803215957952, "dur":932, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.UmbraModule 2-FeaturesChecked.txt_ux5d.info" }}
+,{ "pid":12345, "tid":5, "ts":1702803215958925, "dur":368, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.TextRenderingModule 2-FeaturesChecked.txt_sboi.info" }}
+,{ "pid":12345, "tid":5, "ts":1702803215959367, "dur":374, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.TerrainModule 2-FeaturesChecked.txt_y7fm.info" }}
+,{ "pid":12345, "tid":5, "ts":1702803215959768, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.SpriteShapeModule 2-FeaturesChecked.txt_pnzx.info" }}
+,{ "pid":12345, "tid":5, "ts":1702803215959928, "dur":1012, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.SpriteShapeModule 2-FeaturesChecked.txt_pnzx.info" }}
+,{ "pid":12345, "tid":5, "ts":1702803215960943, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702803215961081, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702803215961201, "dur":601, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.PhysicsModule 2-FeaturesChecked.txt_gsj3.info" }}
+,{ "pid":12345, "tid":5, "ts":1702803215961805, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702803215961958, "dur":1155, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.LocalizationModule 2-FeaturesChecked.txt_apao.info" }}
+,{ "pid":12345, "tid":5, "ts":1702803215963150, "dur":1307, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.GridModule 2-FeaturesChecked.txt_74bg.info" }}
+,{ "pid":12345, "tid":5, "ts":1702803215964812, "dur":92, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702803215964491, "dur":428, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.ContentLoadModule 3-FeaturesChecked.txt_djbw.info" }}
+,{ "pid":12345, "tid":5, "ts":1702803215964957, "dur":375, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702803215965337, "dur":341, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.ClusterInputModule 3-FeaturesChecked.txt_yhvs.info" }}
+,{ "pid":12345, "tid":5, "ts":1702803215965715, "dur":1112, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.ARModule 3-FeaturesChecked.txt_7zun.info" }}
+,{ "pid":12345, "tid":5, "ts":1702803215967323, "dur":277, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702803215966870, "dur":773, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/Unity.VisualScripting.Core 2-FeaturesChecked.txt_1zu1.info" }}
+,{ "pid":12345, "tid":5, "ts":1702803215967677, "dur":1668, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/System.Xml 2-FeaturesChecked.txt_i67e.info" }}
+,{ "pid":12345, "tid":5, "ts":1702803215969406, "dur":2973, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/System.EnterpriseServices 2-FeaturesChecked.txt_6aej.info" }}
+,{ "pid":12345, "tid":5, "ts":1702803215973443, "dur":582, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702803215972464, "dur":1575, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/netstandard 3-FeaturesChecked.txt_f8p1.info" }}
+,{ "pid":12345, "tid":5, "ts":1702803215974418, "dur":139, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702803215974078, "dur":494, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestTextureModule 2-FeaturesChecked.txt_oyvx.info" }}
+,{ "pid":12345, "tid":5, "ts":1702803215974644, "dur":541, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.VideoModule 2-FeaturesChecked.txt_cif2.info" }}
+,{ "pid":12345, "tid":5, "ts":1702803215975227, "dur":367, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.XRModule 2-FeaturesChecked.txt_zbk9.info" }}
+,{ "pid":12345, "tid":5, "ts":1702803215975595, "dur":1421007, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702803215901540, "dur":24431, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702803215925976, "dur":1887, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702803215927864, "dur":2081, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702803215929946, "dur":1793, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702803215931739, "dur":9435, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702803215941735, "dur":1738, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityPlayer.dylib_vmwg.info" }}
+,{ "pid":12345, "tid":6, "ts":1702803215943526, "dur":60, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"MacOSCodeSignDylibCopy CatWantFish.app/Contents/Frameworks/UnityPlayer.dylib" }}
+,{ "pid":12345, "tid":6, "ts":1702803215943901, "dur":517018, "ph":"X", "name": "MacOSCodeSignDylibCopy",  "args": { "detail":"CatWantFish.app/Contents/Frameworks/UnityPlayer.dylib" }}
+,{ "pid":12345, "tid":6, "ts":1702803216461036, "dur":935629, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702803215901553, "dur":24428, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702803215925989, "dur":1937, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702803215927927, "dur":2041, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702803215929969, "dur":1806, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702803215931776, "dur":9423, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702803215943799, "dur":867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/Resources/Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1702803215944687, "dur":292, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1702803215945170, "dur":787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1702803215946134, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1702803215947023, "dur":97, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1702803215946265, "dur":915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1702803215947286, "dur":64, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1702803215948179, "dur":725, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1702803215948118, "dur":787, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1702803215947488, "dur":1546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1702803215949188, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1702803215949297, "dur":101, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1702803215950298, "dur":68, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1702803215949447, "dur":947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1702803215950491, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/MainMenu.nib/keyedobjects.nib" }}
+,{ "pid":12345, "tid":7, "ts":1702803215951544, "dur":96, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/MainMenu.nib/keyedobjects.nib" }}
+,{ "pid":12345, "tid":7, "ts":1702803215950712, "dur":973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/Resources/MainMenu.nib/keyedobjects.nib" }}
+,{ "pid":12345, "tid":7, "ts":1702803215951951, "dur":68, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1702803215952810, "dur":83, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1702803215952085, "dur":857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/Resources/Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1702803215953088, "dur":260, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1702803215954189, "dur":53, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1702803215953366, "dur":907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/Resources/Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1702803215954320, "dur":140, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1702803215955273, "dur":345, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"CatWantFish.app/Contents/Resources/Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1702803215955210, "dur":409, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1702803215955619, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702803215954509, "dur":1179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/Resources/Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1702803215956228, "dur":974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/Resources/Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":7, "ts":1702803215957351, "dur":242, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702803215957615, "dur":402, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.UnityTestProtocolModule 2-FeaturesChecked.txt_crz3.info" }}
+,{ "pid":12345, "tid":7, "ts":1702803215958067, "dur":609, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.UIModule 2-FeaturesChecked.txt_dn10.info" }}
+,{ "pid":12345, "tid":7, "ts":1702803215958695, "dur":130, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.TilemapModule-FeaturesChecked.txt_dq0e.info" }}
+,{ "pid":12345, "tid":7, "ts":1702803215958844, "dur":750, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702803215959599, "dur":410, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.TilemapModule 2-FeaturesChecked.txt_bfmt.info" }}
+,{ "pid":12345, "tid":7, "ts":1702803215960052, "dur":860, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.SpriteMaskModule 2-FeaturesChecked.txt_qzvz.info" }}
+,{ "pid":12345, "tid":7, "ts":1702803215960916, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702803215961092, "dur":649, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.ProfilerModule 2-FeaturesChecked.txt_u0qk.info" }}
+,{ "pid":12345, "tid":7, "ts":1702803215961844, "dur":411, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.MarshallingModule 2-FeaturesChecked.txt_9w2w.info" }}
+,{ "pid":12345, "tid":7, "ts":1702803215962288, "dur":528, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.InputLegacyModule 2-FeaturesChecked.txt_odya.info" }}
+,{ "pid":12345, "tid":7, "ts":1702803215962853, "dur":678, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/Mushroom Platformer_7vlr.info" }}
+,{ "pid":12345, "tid":7, "ts":1702803215963567, "dur":420, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.GIModule 3-FeaturesChecked.txt_0p8b.info" }}
+,{ "pid":12345, "tid":7, "ts":1702803215964036, "dur":807, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.DirectorModule 3-FeaturesChecked.txt_e1ci.info" }}
+,{ "pid":12345, "tid":7, "ts":1702803215964884, "dur":95, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702803215965361, "dur":153, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702803215964984, "dur":562, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.ClusterRendererModule 3-FeaturesChecked.txt_jh3m.info" }}
+,{ "pid":12345, "tid":7, "ts":1702803215965591, "dur":384, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.AssetBundleModule 3-FeaturesChecked.txt_soue.info" }}
+,{ "pid":12345, "tid":7, "ts":1702803215966012, "dur":561, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.AIModule 3-FeaturesChecked.txt_e4aq.info" }}
+,{ "pid":12345, "tid":7, "ts":1702803215966611, "dur":908, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/Unity.VisualScripting.Flow 3-FeaturesChecked.txt_5y38.info" }}
+,{ "pid":12345, "tid":7, "ts":1702803215967552, "dur":388, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/System.Xml.Linq 2-FeaturesChecked.txt_u3we.info" }}
+,{ "pid":12345, "tid":7, "ts":1702803215967973, "dur":1390, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/System.ServiceModel.Internals 2-FeaturesChecked.txt_f0mm.info" }}
+,{ "pid":12345, "tid":7, "ts":1702803215969381, "dur":438, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/System.IO.Compression 2-FeaturesChecked.txt_peec.info" }}
+,{ "pid":12345, "tid":7, "ts":1702803215969887, "dur":3269, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/System.Data.DataSetExtensions 2-FeaturesChecked.txt_39gy.info" }}
+,{ "pid":12345, "tid":7, "ts":1702803215973189, "dur":1155, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/Assembly-CSharp 2-FeaturesChecked.txt_ig6w.info" }}
+,{ "pid":12345, "tid":7, "ts":1702803215974380, "dur":58, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702803215974442, "dur":580, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.VFXModule 2-FeaturesChecked.txt_5erf.info" }}
+,{ "pid":12345, "tid":7, "ts":1702803215975080, "dur":667, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.WindModule 2-FeaturesChecked.txt_pdwl.info" }}
+,{ "pid":12345, "tid":7, "ts":1702803215975748, "dur":1420932, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702803215901585, "dur":24429, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702803215926017, "dur":1895, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702803215927912, "dur":2068, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702803215929980, "dur":1804, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702803215931784, "dur":9427, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702803215941244, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp/StagingArea/DefaultPreferences.plist" }}
+,{ "pid":12345, "tid":8, "ts":1702803215941214, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/DefaultPreferences.plist" }}
+,{ "pid":12345, "tid":8, "ts":1702803215945513, "dur":293, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"CatWantFish.app/Contents/Resources/DefaultPreferences.plist" }}
+,{ "pid":12345, "tid":8, "ts":1702803215945388, "dur":419, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/DefaultPreferences.plist" }}
+,{ "pid":12345, "tid":8, "ts":1702803215944310, "dur":1528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/Resources/DefaultPreferences.plist" }}
+,{ "pid":12345, "tid":8, "ts":1702803215945953, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1702803215946027, "dur":130, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1702803215946162, "dur":55, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702803215947111, "dur":544, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1702803215947079, "dur":577, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1702803215946235, "dur":1449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1702803215947749, "dur":212, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1702803215948033, "dur":680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1702803215948726, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1702803215949016, "dur":66, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1702803215949087, "dur":51, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702803215949368, "dur":684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1702803215950184, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Frameworks/libmonobdwgc-2.0.dylib" }}
+,{ "pid":12345, "tid":8, "ts":1702803215950285, "dur":88, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Frameworks/libmonobdwgc-2.0.dylib" }}
+,{ "pid":12345, "tid":8, "ts":1702803215951738, "dur":111, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Frameworks/libmonobdwgc-2.0.dylib" }}
+,{ "pid":12345, "tid":8, "ts":1702803215950480, "dur":1395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/Frameworks/libmonobdwgc-2.0.dylib" }}
+,{ "pid":12345, "tid":8, "ts":1702803215951988, "dur":91, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1702803215952737, "dur":104, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1702803215952094, "dur":839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/Resources/Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1702803215953053, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/level2.resS" }}
+,{ "pid":12345, "tid":8, "ts":1702803215953107, "dur":52, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/level2.resS" }}
+,{ "pid":12345, "tid":8, "ts":1702803215953724, "dur":125, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/level2.resS" }}
+,{ "pid":12345, "tid":8, "ts":1702803215953192, "dur":687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/Resources/Data/level2.resS" }}
+,{ "pid":12345, "tid":8, "ts":1702803215954016, "dur":78, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1702803215955113, "dur":75, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1702803215954538, "dur":694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/Resources/Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1702803215956266, "dur":118, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":8, "ts":1702803215955406, "dur":1062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/Resources/Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":8, "ts":1702803215956622, "dur":66, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles CatWantFish.app/Contents/Resources/Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":8, "ts":1702803215956782, "dur":596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"CatWantFish.app/Contents/Resources/Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":8, "ts":1702803215957439, "dur":358, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.UnityCurlModule 2-FeaturesChecked.txt_yaxu.info" }}
+,{ "pid":12345, "tid":8, "ts":1702803215957841, "dur":368, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.UnityAnalyticsCommonModule 2-FeaturesChecked.txt_1j9b.info" }}
+,{ "pid":12345, "tid":8, "ts":1702803215958250, "dur":660, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.UI 3-FeaturesChecked.txt_q1fa.info" }}
+,{ "pid":12345, "tid":8, "ts":1702803215958974, "dur":495, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.TextCoreFontEngineModule 2-FeaturesChecked.txt_ex53.info" }}
+,{ "pid":12345, "tid":8, "ts":1702803215959515, "dur":101, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702803215959621, "dur":1277, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.SubsystemsModule 2-FeaturesChecked.txt_hi9v.info" }}
+,{ "pid":12345, "tid":8, "ts":1702803215961005, "dur":593, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.ScreenCaptureModule 2-FeaturesChecked.txt_buxn.info" }}
+,{ "pid":12345, "tid":8, "ts":1702803215961634, "dur":422, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.PerformanceReportingModule 2-FeaturesChecked.txt_b65j.info" }}
+,{ "pid":12345, "tid":8, "ts":1702803215962500, "dur":170, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702803215962103, "dur":581, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.JSONSerializeModule 2-FeaturesChecked.txt_lneh.info" }}
+,{ "pid":12345, "tid":8, "ts":1702803215962755, "dur":852, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.ImageConversionModule 2-FeaturesChecked.txt_ia42.info" }}
+,{ "pid":12345, "tid":8, "ts":1702803215963666, "dur":500, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.GameCenterModule 2-FeaturesChecked.txt_gfh3.info" }}
+,{ "pid":12345, "tid":8, "ts":1702803215964590, "dur":380, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702803215964202, "dur":782, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.CrashReportingModule 3-FeaturesChecked.txt_p13x.info" }}
+,{ "pid":12345, "tid":8, "ts":1702803215964999, "dur":963, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.ClothModule-FeaturesChecked.txt_9hky.info" }}
+,{ "pid":12345, "tid":8, "ts":1702803215965982, "dur":554, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.AndroidJNIModule 3-FeaturesChecked.txt_8o0u.info" }}
+,{ "pid":12345, "tid":8, "ts":1702803215966698, "dur":673, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine 2-FeaturesChecked.txt_bovc.info" }}
+,{ "pid":12345, "tid":8, "ts":1702803215967381, "dur":408, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702803215967794, "dur":372, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/Unity.Timeline 2-FeaturesChecked.txt_0qin.info" }}
+,{ "pid":12345, "tid":8, "ts":1702803215968184, "dur":906, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/System.Security 2-FeaturesChecked.txt_n72i.info" }}
+,{ "pid":12345, "tid":8, "ts":1702803215969123, "dur":326, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/System.IO.Compression.FileSystem 2-FeaturesChecked.txt_a1k4.info" }}
+,{ "pid":12345, "tid":8, "ts":1702803215969483, "dur":498, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/System.Drawing 2-FeaturesChecked.txt_p61c.info" }}
+,{ "pid":12345, "tid":8, "ts":1702803215969998, "dur":378, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/System.Data 2-FeaturesChecked.txt_hr5l.info" }}
+,{ "pid":12345, "tid":8, "ts":1702803215971446, "dur":355, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/System.Core 3-FeaturesChecked.txt_vxzh.info" }}
+,{ "pid":12345, "tid":8, "ts":1702803215971857, "dur":566, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/System.Configuration 2-FeaturesChecked.txt_huot.info" }}
+,{ "pid":12345, "tid":8, "ts":1702803215972443, "dur":364, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/Polyperfect.Universal 2-FeaturesChecked.txt_q6fa.info" }}
+,{ "pid":12345, "tid":8, "ts":1702803215972848, "dur":387, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/Mono.Security 2-FeaturesChecked.txt_jjdq.info" }}
+,{ "pid":12345, "tid":8, "ts":1702803215973247, "dur":247, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702803215974141, "dur":81, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702803215973498, "dur":737, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestAssetBundleModule 2-FeaturesChecked.txt_jhqo.info" }}
+,{ "pid":12345, "tid":8, "ts":1702803215974267, "dur":179, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702803215974451, "dur":1073, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestWWWModule 2-FeaturesChecked.txt_4dtw.info" }}
+,{ "pid":12345, "tid":8, "ts":1702803215975548, "dur":1421095, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702803217405920, "dur":1156, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
