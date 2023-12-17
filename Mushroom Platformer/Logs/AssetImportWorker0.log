@@ -1488,3 +1488,11 @@ Received Import Request.
 Start importing Assets/Scenes/HowTo.unity using Guid(f41a77e482ee6477284e15134a74e82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f076f3a30bb344d24a556d1f0ccfb572') in 0.003660 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 554.921607 seconds.
+  path: Assets/lofi world vol 1/MP3s/flight home_mp3.mp3
+  artifactKey: Guid(731e2268cdf3d94448d0ed018ded0c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lofi world vol 1/MP3s/flight home_mp3.mp3 using Guid(731e2268cdf3d94448d0ed018ded0c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f5d48f0df7f8ad97dc4fc670efbc462') in 0.760072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
